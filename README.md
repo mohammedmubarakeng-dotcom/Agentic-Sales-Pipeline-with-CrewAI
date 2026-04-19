@@ -337,15 +337,6 @@ Use this repo as a portfolio sample, then tailor it for:
 
 ---
 
-## ⭐ Suggested portfolio positioning
-
-Use this project in your GitHub and Upwork profile as:
-- **Agentic Sales Pipeline with CrewAI**
-- **AI Lead Scoring + Personalized Outreach Automation**
-- **Multi-Agent B2B Sales Workflow for SaaS and Agencies**
-
----
-
 ## 📄 License
 
 MIT — see [`LICENSE`](LICENSE).
