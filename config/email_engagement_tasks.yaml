@@ -1,0 +1,17 @@
+email_drafting:
+  description: >
+    Draft a personalized outbound email for the scored lead. Use the lead's role,
+    company context, and stated use case to create a short, relevant message that
+    introduces value clearly and includes a natural call to action.
+  expected_output: >
+    A personalized cold email draft with subject line, body, and CTA.
+  async_execution: false
+
+engagement_optimization:
+  description: >
+    Improve the draft email to increase clarity, relevance, and likelihood of response.
+    Tighten wording, sharpen the value proposition, and ensure the call to action is credible.
+  expected_output: >
+    An optimized outreach email ready to send, with improved structure, stronger positioning,
+    and a practical CTA.
+  async_execution: false

@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  agentic-sales-pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: agentic-sales-pipeline
+    env_file:
+      - .env
+    working_dir: /app
+    command: python examples/demo.py
+    volumes:
+      - ./:/app

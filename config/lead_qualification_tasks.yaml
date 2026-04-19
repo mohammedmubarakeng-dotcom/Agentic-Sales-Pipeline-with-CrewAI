@@ -1,0 +1,31 @@
+lead_data_collection:
+  description: >
+    Research the lead using the provided lead_data input. Collect the lead's full name,
+    current job title, role relevance to a buying decision, professional background,
+    company name, company industry, company size, market presence, and any other details
+    that clarify the business context behind the lead's use case.
+  expected_output: >
+    A concise but thorough research summary covering personal information, company information,
+    use-case relevance, and supporting evidence gathered from web sources.
+  async_execution: false
+
+cultural_fit_analysis:
+  description: >
+    Analyze the company's likely fit for the proposed use case. Assess signs of innovation,
+    digital maturity, scale, market position, and organizational context that may influence
+    adoption readiness and sales potential.
+  expected_output: >
+    A fit analysis summarizing why this lead and company appear high-fit, medium-fit,
+    or low-fit for the proposed solution, with specific supporting rationale.
+  async_execution: false
+
+lead_scoring_and_validation:
+  description: >
+    Using the outputs from the research and fit analysis tasks, assign a final lead score from 0 to 100.
+    Validate the score using transparent criteria such as role seniority, role relevance,
+    company scale, market presence, strategic alignment, and quality of inferred demand signals.
+    Return the output using the LeadScoringResult Pydantic schema.
+  expected_output: >
+    A LeadScoringResult object containing structured personal information, company information,
+    and a validated lead score with scoring criteria and validation notes.
+  async_execution: false
